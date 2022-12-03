@@ -1,0 +1,161 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+h1 {
+  color: #66BFBF;
+  font-size: 3.5rem;
+}
+
+h2 {
+  color: #66BFBF;
+  font-size: 2.5rem;
+}
+
+h3 {
+  color: #11999E;
+  font-size: 1.5rem;
+}
+
+.table {
+  text-align: left;
+}
+
+.stars {
+  text-align: right;
+  font-size: 21px;
+  color:#22A39F;
+}
+
+.skill-name {
+  font-size: 20px;
+  color: #434242;
+}
+
+#skills {
+  width: 50%;
+  margin: 15px auto;
+}
+
+.bottom_cloud{
+  position:absolute;
+  left: 300px;
+}
+
+.custom_navbar {
+  margin-bottom: 120px;
+}
+
+.card {
+  background-color: #b60ef1;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: black;
+  
+}
+
+.rounded_pic {
+  border-radius: 100%;
+  width: 200px;
+  height: 200px;
+}
+
+.rounded_hr {
+  width: 5%;
+  border: dotted gray;
+  border-width: 5px;
+  border-bottom-style: none;
+  margin: 30px auto 30px;
+}
+
+.education_pic {
+  width: 130px;
+  height: 130px;
+  margin-right: 15px;
+  float: left;
+}
+
+.education_pic2 {
+  width: 130px;
+  height: 130px;
+  margin-left: 15px;
+  float: right;
+}
+
+.education_row {
+  width: 50%;
+  margin: 10px auto 50px;
+  text-align: left;
+}
+
+.top_cloud {
+  position:absolute;
+  right: 300px;
+  top: 100px;
+}
+
+.links {
+  margin-right: 15px;
+  margin-bottom: 60px;
+}
+
+#intro {
+  background-color: #EAF6F6;
+  text-align: center;
+  margin: 0 auto 10px;
+  padding: 0 0 90px;
+}
+#intro h1 {
+  font-family: 'Sacramento', cursive;
+  color: #66BFBF;
+  font-size: 6rem;
+  margin-bottom: 10px;
+}
+#intro h2 {
+  color: #66BFBF;
+  font-size: 1.5rem;
+  font-weight: normal;
+  margin-top: 10px;
+}
+
+#education {
+  margin-top: 0;
+}
+
+#footer {
+  background-color: #66BFBF;
+  margin: 10px 0 0 0;
+  padding: 20px;
+}
+
+#footer p {
+  margin-top: 20px;
+  color: white;
+  font-size: medium;
+}
+
+#footer h2 {
+  color: #11999E;
+}
+
+#plans div {
+  margin: 15px auto 15px;
+}
+
+@media only screen and (max-width: 1045px) {
+  img.top_cloud {
+    display: none;
+  }
+  img.bottom_cloud {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  img.mountain {
+    display: none;
+  }
+}
